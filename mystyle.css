@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Langar', cursive;
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    transition: 0.3s;
+    color: black;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.info {
+    margin-left: 22px;
+}
+
+button {
+    width: 120px;
+    border-radius: 7px;
+    background-color: hsl(100, 50%, 50%);
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: hsl(100, 70%, 40%);
+    color: white;
+}
+
+#rowbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
